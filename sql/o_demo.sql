@@ -1,0 +1,12 @@
+﻿USE one;
+CREATE TABLE one.o_d_demo (
+  DEMO_ID int(11) NOT NULL AUTO_INCREMENT COMMENT 'Уникальный ключ',
+  SLIDE_KEY varchar(255) NOT NULL COMMENT 'Ключ слайда',
+  DEMONSTRATION_ID int(11) NOT NULL COMMENT 'Ссылка на показ',
+  PRIMARY KEY (DEMO_ID)
+)
+ENGINE = INNODB
+AUTO_INCREMENT = 1588
+AVG_ROW_LENGTH = 98
+CHARACTER SET utf8
+COLLATE utf8_general_ci;
